@@ -1,0 +1,65 @@
+.row {
+  display: flex;
+  padding: 30px 30px;
+  width: 70%;
+  margin: 0 1% 0 15%;
+}
+
+.column {
+  color: #fff;
+  flex: 30%;
+  display: flex;              
+  justify-content: center;      
+  align-items: center;         
+  flex-direction: column;       
+}
+
+.content__logo__image{
+  text-align: center;      
+}
+
+.logo__image {
+display: inline-block;   
+}
+
+.information__section__header{
+  font-size: larger;
+}
+
+.news__section
+{
+  background: #d4d1c6;
+  border-radius: 6px;
+  color: black;
+  display: block;
+  font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+  padding: 30px 30px;
+  width: 70%;
+  text-align: left;
+  margin: 0 1% 0 15%;
+  display: flex;
+  border-bottom: 20px solid rgb(41, 39, 37); /* с днем костылей */
+  padding-bottom: 20px; 
+}
+
+
+.column__two
+{
+  left: 10px;
+  flex: 45%;
+  display: flex;              
+  flex-direction: column;      
+  margin: 0 5% 0 5%;
+}
+
+.top__menu
+{
+  padding-bottom: 20px;
+}
+
+.bottom__information
+{
+  padding-top: 20px; 
+  color: white;
+  background-color: black;
+}
