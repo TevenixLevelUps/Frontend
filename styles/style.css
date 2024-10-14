@@ -41,7 +41,7 @@ header{
   height:14px;
 }
 .main{
-  background:url( '/img/image.png') no-repeat;
+  background:url( '../img/image.png') no-repeat;
   background-size: cover;
   background-position: top;
   color:#fff;
@@ -94,10 +94,11 @@ height:31px;
   gap:30px;
 }
 .content_block{
-  background:url("/img/Layer\ 10\ copy.png") center no-repeat;
+  background:url("../img/Layer\ 10\ copy.png") center no-repeat;
   background-size: cover;
   color:#000;
   display: flex;
-  
+  width: 940px;
+  height: 419px;
 }
 
