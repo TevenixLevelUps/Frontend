@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbershop Borodinski</title> 
+</head>
+<body>
+    <header class="header">
+        <div class="container"><!-- вы делали container вложенным ,но например в данном макете можно же в сам контейнер вложить и header и footer и main? -->
+            <div class="header__inner"><!-- или лучше использовать тег <menu> ? -->
+                <nav class="header__menu">
+                    <ul class="header__list">
+                        <li class="list-item">
+                            <a href="#" class="list-link">
+                            ИНФОРМАЦИЯ
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#" class="list-link">
+                                НОВОСТИ
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#" class="list-link">
+                                ПРАЙС-ЛИСТ
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#" class="list-link">
+                                МАГАЗИН
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#" class="list-link">
+                                КОНТАКТЫ
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="login">
+                    <img src="img/login.svg" alt="кнопка входа" class="login-icon"><!--я почитал что не всегда надо alt заполнять , в данном случае вроде как надо,я правильно понял?-->
+                    <button class="login-button">ВХОД</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+       
+        <section class="intro"> <!-- спасибо вам за название класса ==),не знал как можно называть такие секции -->
+            <div class="container">
+                <div class="intro__inner">
+                    <img src="img/index-logo.svg" alt="логотип барбершопа Borodinski">
+                    <div class="advantages">
+                        <ul class="advantages__list">
+
+                            <li class="advantages__list-item">
+                                <h2 class="advantages__list-heading">
+                                    БЫСТРО
+                                </h2>
+                                <img src="img/Shape 1 copy.svg" alt="" class="advantages__list-img"><!-- вот я как раз почитал что на такие графические элементы не надо ставить alt -->
+                                <p class="advantages__list-text">
+                                    МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДАТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!
+                                </p>
+                            </li>
+
+                            <li class="advantages__list-item">
+                                <h2 class="advantages__list-heading">
+                          КРУТО
+                                </h2>
+                                <img src="img/Shape 1 copy.svg" alt="" class="advantages__list-img">
+                                <p class="advantages__list-text">
+                                    ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ.МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО!ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.
+                                </p>
+                            </li>
+
+                            <li class="advantages__list-item">
+                                <h2 class="advantages__list-heading">
+                                    ДОРОГО
+                                </h2>
+                                <img src="img/Shape 1 copy.svg" alt="" class="advantages__list-img">
+                                <p class="advantages__list-text">
+                                    НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА 
+НЕ ДАЕТ ОПРЕДЕЛЕННЫЙ СТАТУС?
+                                </p>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section> 
+
+        <section class="news-and-gallery">
+            <div class="container">
+                <div class="info-section">
+                    <div class="news-section">
+                        <h2 class="section-heading">НОВОСТИ</h2>
+                        <div class="news">
+                            <p class="news-text">НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ</p>
+                            <time class="news-date">11 января</time><!-- или просто p использовать -->
+                        </div>
+                        <div class="news">
+                            <p class="news-text">В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДAТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ</p>
+                            <time class="news-date">18 января</time>
+                        </div>
+                        <button class="all-news">ВСЕ НОВОСТИ</button>
+
+                    </div>
+                    <div class="gallery">
+                        <h2 class="section-heading">ФОТОГАЛЕРЕЯ</h2>
+                        <img src="img/Layer 21.jpg" alt="фотографии нашего барбершопа" class="gallery-img">
+                        <div class="gallery-buttons">
+                            <button class="gallery-button">
+                                НАЗАД
+                            </button>
+                            <button class="gallery-button">
+                                ВПЕРЕД
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contacts-and-appointment">
+            <div class="container">
+                <div class="info-section">
+
+                    <div class="conatcts">
+                        <h2 class="section-heading">КОНТАКТНАЯ ИНФОРМАЦИЯ</h2>
+                        <div class="contacts-text">
+                            <div class="text-1">
+                                <p class="text">БАРБЕРШОП «БОРОДИНСКИЙ»</p>
+                                <p class="text">АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8</p>
+                                <p class="text">ТЕЛЕФОН: <a href="telto:+74956660266">+7 (495) 666-02-66</a></p>
+                            </div>
+                            <div class="text-2">
+                                <p class="text">ВРЕМЯ РАБОТЫ: </p>
+                                <p class="text">ПН—ПТ: С 10:00 ДО 22:00</p>
+                                <p class="text">СБ—ВС: С 10:00 ДО 19:00</p>
+                            </div>
+                        </div>
+                        <div class="contacts-buttons">
+                            <button class="contacts-button">КАК ПРОЕХАТЬ</button>
+                            <button class="contacts-button">ОБРАТНАЯ СВЯЗЬ</button>
+                        </div>
+                    </div>
+
+                    <div class="appointment">
+                        <h2 class="section-heading">ЗАПИСАТЬСЯ</h2>
+                        <p class="appointment-text">УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ
+                            С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ</p>
+                        <form action="#">
+                            <label for="#">ДАТА</label>
+                            <input type="text" placeholder="08.10.2017">
+
+                            <label for="#">ВРЕМЯ</label>
+                            <input type="text" placeholder="10:00">
+
+                            <label for="#">ВАШЕ ИМЯ</label>
+                            <input type="text" placeholder="УБорода">
+
+                            <label for="#">ТЕЛЕФОН</label>
+                            <input type="text" placeholder="+7 123 456-78-90">
+                            <button class="appointment-button">
+                                ОТПРАВИТЬ
+                            </button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+
+            <div class="footer-info">
+                <p class="footer-text">БАРБЕРШОП «БОРОДИНСКИЙ»</p>
+                <p class="footer-text">АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8</p>
+                <p class="footer-text">КАК НАС НАЙТИ?</p>
+                <p class="footer-text">ТЕЛЕФОН: <a href="telto:+74956660266">+7 (495) 666-02-66</a></p>
+            </div>
+
+            <div class="footer-links">
+                <p class="footer-text">ДАВАЙТЕ ДРУЖИТЬ!</p>
+                <ul class="footer__links-menu">
+                    <li class="footer__links-item">
+                        <img src="img/vk.svg" alt="мы в вконтакте" class="footer__links-img" >
+                    </li>
+                    <li class="footer__links-item">
+                        <img src="img/facebook.svg" alt="мы в фейсбук" class="footer__links-img" >
+                    </li>
+                    <li class="footer__links-item">
+                        <img src="img/instagram.svg" alt="мы в инстаграм" class="footer__links-img" >
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-wow-sps">
+                <p class="footer-text">РАЗРАБОТАНО:</p>
+                <div class="name">Eugene</div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
