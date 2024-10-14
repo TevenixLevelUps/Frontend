@@ -7,7 +7,7 @@ body {
 }
  
 header{
-  font-family:"PT Sans", sans-serif;
+  font-family:"IBM Plex Sans", sans-serif;
   font-weight:400;
   font-size: 16px;
 
@@ -54,8 +54,13 @@ header{
 .main_container{
   width:925px;
 }
+.logo{
+  margin-top:66px;
+  display: flex;
+  justify-content: center;
+}
 .quick_info_container{
-  margin-top: 215px;
+  margin-top:60px;
   display: flex;
   flex-direction: row;
   gap:35px;
@@ -75,8 +80,12 @@ header{
   text-align: center;
   font-size:14px; 
 }
+.item_img img {
+width:31px;
+height:31px;
+}
 .item_img{
-  color:#fff;
+  text-align: center;
 }
 .content{
   margin-top:70px;
@@ -85,6 +94,10 @@ header{
   gap:30px;
 }
 .content_block{
-  background-color: #fff;
+  background:url("/img/Layer\ 10\ copy.png") center no-repeat;
+  background-size: cover;
   color:#000;
+  display: flex;
+  
 }
+
