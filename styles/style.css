@@ -94,11 +94,58 @@ height:31px;
   gap:30px;
 }
 .content_block{
-  background:url("../img/Layer\ 10\ copy.png") center no-repeat;
-  background-size: cover;
+  background-color: #fff;
   color:#000;
   display: flex;
   width: 940px;
   height: 419px;
+  padding-top:42px;
+  display: flex;
+  gap:40px;
+  font-weight: 600;
+  padding: 40px 70px;
 }
-
+.block_item{
+  display: flex;
+  flex-direction: column;
+  width:378px;
+}
+.block_item_title{
+  font-size: 30px;
+  font-weight: 600;
+}
+.middle_line{
+background: url('../img/palochka.jpg') no-repeat center;
+background-size: cover;
+align-self: center;
+width: 70px;
+height: 278px;
+}
+.introLine{
+  margin-top:6px;
+}
+.news_container{
+  margin-top:50px;
+  font-size: 14px;
+  overflow-y: scroll;
+  height: 170px;
+}
+.news_item{
+  margin-top:8px;
+}
+.news_item_date{
+  text-transform: lowercase;
+}
+.news_item_info{
+  line-height: 25px;
+  margin-top:15px;
+}
+.btn_template{
+  margin-top: 25px;
+  border:none;
+  color:#fff;
+  background-color: #000;
+  height:40px;
+  width:140px;
+  text-transform: uppercase;
+}
