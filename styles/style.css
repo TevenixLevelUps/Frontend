@@ -4,10 +4,11 @@ body {
 	margin: 0px;
 	border: none;
   text-transform: uppercase;
+  font-family:"IBM Plex Sans", sans-serif;
 }
  
 header{
-  font-family:"IBM Plex Sans", sans-serif;
+
   font-weight:400;
   font-size: 16px;
 
@@ -47,6 +48,7 @@ header{
   color:#fff;
   display: flex;
   justify-content: center;
+  padding-bottom:80px;
 }
 .main{
   padding-top:30px;
@@ -97,11 +99,10 @@ height:31px;
   background-color: #fff;
   color:#000;
   display: flex;
-  width: 940px;
-  height: 419px;
+  width:800px;
+  height: 339px;
   padding-top:42px;
   display: flex;
-  gap:40px;
   font-weight: 600;
   padding: 40px 70px;
 }
@@ -110,22 +111,30 @@ height:31px;
   flex-direction: column;
   width:378px;
 }
+.block_item:nth-child(3){
+  margin-left: 60px;
+}
+.middle_line:nth-child(2){
+  margin-left: 60px;
+}
 .block_item_title{
   font-size: 30px;
   font-weight: 600;
 }
+.content_block
 .middle_line{
 background: url('../img/palochka.jpg') no-repeat center;
 background-size: cover;
 align-self: center;
 width: 70px;
 height: 278px;
+
 }
 .introLine{
   margin-top:6px;
 }
 .news_container{
-  margin-top:50px;
+  margin-top:20px;
   font-size: 14px;
   overflow-y: scroll;
   height: 170px;
@@ -139,6 +148,7 @@ height: 278px;
 .news_item_info{
   line-height: 25px;
   margin-top:15px;
+  min-width: 320px
 }
 .btn_template{
   margin-top: 25px;
@@ -148,4 +158,61 @@ height: 278px;
   height:40px;
   width:140px;
   text-transform: uppercase;
+}
+.scroll_btns{
+  margin-top: 35px;
+}
+.container_scroll_images{
+  margin-top:40px;
+}
+.image_0{
+background: url('../img/Layer\ 21.png') no-repeat center;
+background-size: cover;
+width:328px;
+height:164px;
+}
+footer{
+
+  width:100%;
+  height:193px;
+background: url('../img/Layer\ 23.png') no-repeat center;
+background-size: cover;
+display: flex;
+  justify-content: center;
+color:#fff;
+}
+.footer_container{
+  font-size: 14px;
+ font-weight: 600;
+  width: 940px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap:80px;
+}
+.footer_info{
+  min-width:385px;
+}
+.footer_social_media{
+  margin-right:90px;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+.title_social_media{
+  width:200px;
+  text-align: center;
+}
+.vk,.facebook,.inst{
+  background-color: #000;
+  width:43px;
+  height:43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social_media{
+  display: flex;
+  gap:15px;
+  justify-content: center;
 }
