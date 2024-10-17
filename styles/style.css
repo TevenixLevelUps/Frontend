@@ -103,7 +103,7 @@ height:31px;
   height: 339px;
   padding-top:42px;
   display: flex;
-  font-weight: 600;
+  font-weight: 700;
   padding: 40px 70px;
 }
 .block_item{
@@ -118,8 +118,8 @@ height:31px;
   margin-left: 60px;
 }
 .block_item_title{
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 21px;
+  font-weight: 700;
 }
 .content_block
 .middle_line{
@@ -146,7 +146,7 @@ height: 278px;
   text-transform: lowercase;
 }
 .news_item_info{
-  line-height: 25px;
+  line-height: 20px;
   margin-top:15px;
   min-width: 320px
 }
@@ -215,4 +215,42 @@ color:#fff;
   display: flex;
   gap:15px;
   justify-content: center;
+}
+.contact_info{
+  font-size: 14px;
+  margin-top: 30px;
+  line-height: 18px;
+}
+.contact_btns{
+  display: flex;
+  gap:30px;
+}
+.getInfoInputs{
+  margin-top:20px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap:10px;
+}
+.textFeedback{
+  font-weight: 800;
+  font-size: 11px;
+  margin-top:30px;
+}
+.getInfo_item{
+  display: flex;
+  flex-direction: column;
+  gap:7px;
+}
+.getInfo_item_title{
+  font-weight: 800;
+  font-size: 11px;
+  position:relative;
+  left:20px;
+}
+.getInfoInputs input{
+  padding:0;
+  width:130px;
+  height:40px;
+  border:2px solid #000;
+  padding-left:10px;
 }
